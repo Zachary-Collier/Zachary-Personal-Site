@@ -16,4 +16,38 @@
     background-color: greenyellow;
  }
 
+ .testimonials {
+   width: 80%;
+   margin: auto;  /* this aligns the title and p tag in alignment with the pictures */
+   padding-top: 100px;
+   text-align: center; /* this aligns title and p tag in the center  */
+}
+
+.testimonial-column { /* this places settings of the background and pictures  */
+   flex-basis: 94%;
+   border-radius: 10px; 
+   margin-bottom: 5%;
+   text-align: left;
+   background: #fff3f3;
+   padding: 25px;
+   cursor: pointer;
+   display: flex; /* this places both pictures to match the same size and text is on the right side of both of the pictures */
+}
+
+.testimonial-column img {
+   height: 50px;
+   margin-left: 5px;
+   margin-right: 30px;
+   border-radius: 50%;
+}
+
+.testimonial-column p {
+   padding: 0;
+}
+
+.testimonial-column h3 {
+   margin-top: 15px;
+   text-align: left;
+}
+
  
