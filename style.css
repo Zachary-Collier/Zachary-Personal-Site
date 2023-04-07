@@ -1,1 +1,17 @@
+.navbarLinks {
+    float: right; /*this puts everything on the same line */
+ }
 
+ .navbarLinks a {
+    text-decoration: none;
+ }
+
+ header {
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    
+ }
+
+ .navbarLinks:hover a {
+    background-color: yellow;
+ }
