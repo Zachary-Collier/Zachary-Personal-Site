@@ -1,5 +1,6 @@
 .navbarLinks {
-    float: right; /*this puts everything on the same line */
+   flex: 1; 
+   float: right; /*this puts everything on the same line */
  }
 
  .navbarLinks a {
@@ -28,7 +29,7 @@
    border-radius: 10px; 
    margin-bottom: 5%;
    text-align: left;
-   background: #fff3f3;
+   background: #d63434;
    padding: 25px;
    cursor: pointer;
    display: flex; /* this places both pictures to match the same size and text is on the right side of both of the pictures */
@@ -49,5 +50,7 @@
    margin-top: 15px;
    text-align: left;
 }
+
+
 
  
