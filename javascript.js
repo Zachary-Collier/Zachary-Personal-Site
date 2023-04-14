@@ -1,6 +1,6 @@
 const form = document.querySelector("#form")
 const submitButton = document.querySelector("#submit")
-const scriptURL = 'const scriptURL = "https://httpbin.org/post";'
+const scriptURL = "https://httpbin.org/post";
 
 form.addEventListener('submit', e => {
   submitButton.disabled = true
