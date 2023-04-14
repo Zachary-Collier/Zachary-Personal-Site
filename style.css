@@ -10,7 +10,6 @@
  header {
     font-size: 2rem;
     padding: 0.5em 1em;
-    
  }
 
  .navbarLinks:hover a {
@@ -142,14 +141,14 @@ h1{
 }
 
 .fpar{
-   margin: 50px;
-   outline: 0;
+   float: left;
+   text-align: center;
+   border: 1px solid gray;
 }
 
 .quote{
+   display: block;
    margin: auto;
-   width
-
 }
 
 
